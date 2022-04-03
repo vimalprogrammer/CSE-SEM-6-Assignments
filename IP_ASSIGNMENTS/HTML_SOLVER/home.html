@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+        <textarea id="myTextarea"
+            class="input shadow"
+            name="name"
+            rows="15"
+            cols="100"
+            placeholder="Your HTML Code here ">
+        
+        </textarea>
+ 
+        <p id="demo"></p>
+<button type="button" onclick="myFunction()">convert</button>
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTextarea").value;
+  document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+</body>
+</html>
